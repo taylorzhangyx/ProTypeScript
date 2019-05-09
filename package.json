@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorzhangyx/ProTypeScript.git"
+  },
+  "author": "yuxin zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorzhangyx/ProTypeScript/issues"
+  },
+  "homepage": "https://github.com/taylorzhangyx/ProTypeScript#readme"
+}
