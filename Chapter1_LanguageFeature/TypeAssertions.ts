@@ -20,3 +20,4 @@ function getProperty(): Apartment | House{
 const property =getProperty();
 // Type Assertion
 const backyard = (<House>property).backYard;
+const backyardinnumber = <number><any>property; // Compiler won't give any error here
