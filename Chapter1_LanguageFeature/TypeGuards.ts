@@ -27,7 +27,6 @@ function isApartment(apartment: Peach | any): apartment is Peach{
     }
 }
 
-
 function houseHunting(place: Apple| Peach){
     if(isApartment(place)){
         place.leasingOffice = 'office';
