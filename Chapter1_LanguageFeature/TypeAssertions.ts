@@ -1,15 +1,15 @@
-interface Apartment{
+interface Apartment {
     room: string;
     door: string;
 }
 
-interface House{
+interface House {
     backYard: string;
     room: string;
     door: string;
 }
 
-function getProperty(): Apartment | House{
+function getProperty(): Apartment | House {
     return {
         backYard: 'big',
         room: 'small',
@@ -17,7 +17,7 @@ function getProperty(): Apartment | House{
     };
 }
 
-const property =getProperty();
+const property = getProperty();
 // Type Assertion
 const backyard = (<House>property).backYard;
 const backyardinnumber = <number><any>property; // Compiler won't give any error here
